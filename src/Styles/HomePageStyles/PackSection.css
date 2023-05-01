@@ -1,0 +1,139 @@
+.pack{
+	background: url("/potoyoga.jpeg") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 64.7vh;
+	width:55.5%;
+	transition: all .5s;
+	margin-bottom: 75px;
+	float: right;
+	margin-top: 110px;
+	
+
+}
+
+.pack-text{
+	line-height: 300%;
+	width: 37%;
+	float: left;
+	margin-right: 32px;
+	color:#000000;
+	margin-top: 110px;
+	margin-left: 60px;
+	margin-bottom: 122px;
+}
+
+.pack-text h1{
+	line-height: 200%;
+	font-weight: bolder;
+}
+
+
+
+.pack-cta button {
+	font-size:15px ;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	margin-top: 30px;
+	padding: 15px 45px 15px 45px;
+	background:#fff;
+	border-radius: 10px;
+	color:#000;
+	text-transform: uppercase;
+	border: 1px solid #000000;
+	transition: all .2s;
+    margin: 30px auto;
+}
+
+
+.pack-cta button:hover {
+	background: #000000;
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width:280px) and (max-width:1280px){
+	
+	/* .cour-container{
+		padding-bottom: 240px;
+	} */
+	
+	
+	.pack{
+		background: url("/potoyoga.jpeg") no-repeat;
+		background-size: cover;
+		height: 65vw;
+		width:100%;
+		margin-top: 55px;
+	}
+
+	.pack-text{
+		line-height: 220%;
+		width: 99%;	
+		text-align: center;
+		margin-top: -45px;
+		margin-bottom: 30px;
+		align-items: center;
+		
+		border: #000;
+		vertical-align: middle;
+		
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.pack-text h1{
+		line-height: 200%;
+	}
+
+	.pack-text p{
+		line-height: 200%;
+		padding-bottom: 50px;
+		width: 80%;
+		margin: 0 auto 0 auto;
+	}
+
+
+	.pack-cta {
+		align-items: center;
+		display: flex;
+		position: relative;
+		margin-bottom: 40px;		
+	}
+	.pack-cta button{
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right:-50% ;
+		transform: translate(-50%,-50%);
+		color: #fff;
+		background-color: #000000;
+		
+
+	
+	}
+
+
+
+}
+
+@media only screen and (min-width:280px) and (max-width:300px){
+	.pack-cta button{
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right:-50% ;
+		transform: translate(-50%,-50%);
+		color: #fff;
+		background-color: #000000;
+		padding: 15px 30px 15px 30px;
+		font-size: 13px;
+}
+}

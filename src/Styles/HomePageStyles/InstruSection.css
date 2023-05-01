@@ -1,0 +1,297 @@
+.instru-div{
+
+	width: 100%;
+	margin: 0;
+	padding-top: 100px;
+	align-items:center;
+	margin-top: 640px;
+	background-color: #000;
+	height: auto;
+}
+
+
+.prof {
+	position: relative;
+	overflow: hidden;
+	padding: 20px;
+	display: block;
+	
+  }
+
+  .prof .subtitle{
+	  line-height: 170%;
+	  font-weight: normal;
+	  text-align: center;
+	  font-size: 19px;
+	  padding: 0 155px 0 155px;
+	  opacity: 0.7 ;
+	  letter-spacing: 1.2px;
+	  margin-top: -270px;
+	  margin-bottom: 60px;
+	  color: #fff;
+  
+  }
+
+  
+  .prof-category {
+	font-size: 40px;
+	font-weight:bolder;
+	margin-bottom: 230px;
+	margin-top: -100px;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 500%;
+	color: #fff;
+	letter-spacing: 1.4px;
+  }
+  
+  .prof-container {
+	padding: 0 10vw;
+	display: flex;
+	overflow-x: auto;
+	overflow-y: hidden;
+	scroll-behavior: smooth;
+	margin-top: 195px;
+}
+  
+  .prof-container::-webkit-scrollbar {
+	display: none;
+  }
+  
+  .prof-card {
+	flex: 0 0 auto;
+	width: 250px;
+	height: 450px;
+	margin-right: 40px;
+	transition: 0.5s ease;
+}
+
+
+.prof-card:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+ }
+
+
+.mouv-card:hover {
+   transform: scale(1.1);
+   cursor: pointer;
+}
+
+  
+  .prof-image {
+	position: relative;
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+  }
+  
+  .prof-thumb {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  
+  
+  .prof-info {
+	width: 100%;
+	height: 100px;
+	padding-top: 10px;
+  }
+  
+  .prof-name {
+	text-transform: uppercase;
+	font-size: medium;
+	letter-spacing: 2px;
+	color: #fff;
+  }
+  
+  .prof-short-description {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	opacity: 0.7;
+	text-transform: capitalize;
+	margin: 5px 0;
+	color: #fff;
+	font-size: 15px;
+  }
+  
+  
+  .pre-btn,
+  .nxt-btn {
+	border: none;
+	width: 6vw;
+	height:10%;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+	cursor: pointer;
+	z-index: 1;
+	
+  }
+  
+  .pre-btn {
+	left: 0;
+	transform: rotate(180deg);
+	margin-top: 500px;
+    margin-left:0;
+  }
+  
+  .nxt-btn {
+	right: 0;
+	margin: 0;
+	margin-top: 500px;
+  }
+  
+
+
+  .pre-btn img,
+  .nxt-btn img {
+	opacity: 0.4;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+	opacity: 1;
+  }
+  
+  
+  
+
+
+.prof-cta button {
+	font-size:15px ;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	margin-top: -85px;
+	padding: 15px 45px 15px 45px;
+	background:#ffffff;
+	border-radius: 10px;
+	color:#000000;
+	text-transform: uppercase;
+	border: 1px solid #ffffff;
+	transition: all .2s;
+	margin-left:450px;
+	margin-bottom: 85px;
+	margin-top: -10px;
+	
+}
+
+
+.prof-cta button:hover {
+	background: #000000;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+}
+
+
+
+
+
+
+
+
+@media (min-width:270px) and (max-width: 1024px){
+
+
+	.instru-div .prof-category{
+		/* text-align: center; */
+		line-height: 160%;
+		margin-top: -20px;
+		margin-bottom: 20px;
+		font-size: 33px;
+	}
+
+	.instru-div .subtitle{
+		text-align:center;
+		font-size: 16px;
+		margin-top: 30px;
+		padding: 0 20px 0 20px;
+		letter-spacing: 1px;
+		margin-bottom: 70px;
+
+	}
+	
+	.instru-div .prof-cta{
+		/* display: block; */
+		flex-wrap: wrap;
+		align-items: center;
+		display: none;
+		width: 90%;
+	}
+	
+
+
+
+	.instru-div .prof-cta button {
+		font-size:15px ;
+		font-weight: bolder;
+		letter-spacing: 2px;
+		/* margin-top: -85px; */
+		padding: 15px 45px 15px 45px;
+		background:#ffffff;
+		border-radius: 10px;
+		color:#000000;
+		text-transform: uppercase;
+		border: 1px solid #ffffff;
+		transition: all .2s;
+		margin-left:100px;
+		margin-bottom: 185px;
+		flex-wrap: wrap;
+		
+	}
+	
+
+	.instru-div .prof {
+		margin-top: -30px;
+		
+	}
+
+	.instru-div .pre-btn , .nxt-btn{
+		display: none;
+	}
+	
+	.instru-div .prof-container{
+		margin-top: 0;
+	}
+
+
+}
+
+
+@media (min-width:1080px) and (max-width: 1280px){
+	.instru-div .pre-btn , .nxt-btn{
+		display: none;
+	}
+
+	.prof-cta button {
+		font-size:15px ;
+		font-weight: bolder;
+		letter-spacing: 2px;
+		margin-top: -85px;
+		padding: 15px 45px 15px 45px;
+		background:#ffffff;
+		border-radius: 10px;
+		color:#000000;
+		text-transform: uppercase;
+		border: 1px solid #ffffff;
+		transition: all .2s;
+		margin-left:435px;
+		margin-bottom: 85px;
+		margin-top: -10px;
+		
+	}
+}
+
+
+@media (width:280px){
+	.instru-div .prof-category{
+		font-size: 28px;
+	}
+}

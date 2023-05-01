@@ -1,0 +1,270 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth; 
+}
+body {
+	font-family: "Montserrat",sans-serif;
+    color: #000;
+}
+
+/* .seed-cont{
+    height: fit-content;
+} */
+/* .overlay2{
+    position: absolute;
+    
+    width: 79%;
+    height: 91.7%;
+    background-color: rgba(0,0,0,.3);
+    z-index: 1; */
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-left: 142px; */
+    /* transform: translate(13.35%);
+    
+    
+
+    
+}
+
+img{
+    width: 79%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
+    margin-bottom: 500px;
+    
+} */
+
+
+/* .overlay2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: 1;
+  }
+
+  
+
+  img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+   */
+
+
+
+   .seed-cont {
+    position: relative;
+    width: 100%;
+    max-width: 890px;
+    margin: 0 auto; 
+    
+  }
+  
+  .seed-cont img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 85px auto 0; /* Adjust the margins as needed */
+    transform: scale(1.25); /* Scale the image by 125% */
+  }
+  
+  /* .overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .3);
+    z-index: 1;
+  } */
+  
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .8);
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    z-index: 1;
+    transform: scale(1.25); 
+  }
+  .start-now{
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    z-index: 2;
+    transform: translate(-50% , -50%);
+    line-height: 400%;
+    width: 100%;
+    letter-spacing: 2px;
+    
+
+  }
+.start-now h1{
+    font-size: 36px;
+}
+  .start-now a{
+    color: white;
+    font-weight: bold;
+   text-transform: capitalize;
+   font-size: 18px;
+   line-height: 200%;
+  }
+
+  .start-now a hr{
+    width: 55%;
+    margin-left: 200px;
+    margin-top: -18px;
+  }
+
+  .lock-icon{
+    font-size: 65px;
+    font-weight: lighter;
+  }
+
+.cours-video-info{
+     margin-top: 100px; 
+     margin-bottom: 140px;
+     margin-left: 15px;
+
+  }
+.cours-video-info img{
+    width: 90px;
+    height: 90px;
+    left: 0;
+    float: left;
+    margin-top:40px ;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+.cours-video-info h1{
+    margin-left: 70px;
+    text-transform: uppercase;
+    letter-spacing: 1.9px;
+}
+.cours-video-info h3 {
+    margin-top: 160px;
+ 
+}
+.video-instru-specia{
+  position: absolute;
+  margin-left:210px ;
+  margin-top:100px ;
+  color: rgb(15, 15, 15);
+}
+
+.video-instru-name{
+  position: absolute;
+  margin-left:210px ;
+  margin-top: 60px;
+  text-transform: capitalize;
+}
+.consultation-btn{
+ position: absolute;
+ margin-top: 65px;
+ margin-left: 335px;
+ font-size: 16px;
+ border-radius: 10px;
+ border: 2px black solid;
+ text-transform: uppercase;
+ letter-spacing: 1.5px;
+ padding: 10px 35px 10px 35px;
+ background: white;
+ color: black;
+}
+.consultation-btn:hover{
+  background: black;
+  color: white;
+}
+
+
+.descrip-cours{
+  margin-left: 70px;
+  width: 70%;
+  line-height: 180%;
+  margin-top: 40px;
+}
+
+hr{
+  margin: -10px;
+  width: 97%;
+  margin-left: 3px;
+}
+
+
+.apercu-video-page{
+  margin-top: 200px;
+  text-align: center;
+  width: 100%;  
+  }
+
+.apercu-video-page p{
+  font-size: 23px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 4px;
+  opacity: 0.7;
+}
+
+hr .line-apercu{
+  margin-bottom: -20px;
+  display: none;
+}
+
+table{
+  margin-top: 60px;
+  margin-left: 72px;
+  width: 90%;
+  height: 8vw;
+}
+
+
+
+.list-equipment{
+  list-style: none;
+  display: flex;
+  
+  max-width: 200px;
+  text-align: center;
+  justify-content: center;
+
+
+}
+
+.list-equipment li{
+  padding: 10px;
+}
+
+thead{
+  font-weight: bold;
+  letter-spacing: 1.7px;
+  font-size: 18px;
+  color:rgb(0, 0, 0) ;
+}
+
+.more-videos-instru{
+  margin-bottom: 20px;
+}
+
+.more-videos-instru h2{
+  text-align: center;
+  text-transform:uppercase;
+  letter-spacing: 3px;
+  
+}
