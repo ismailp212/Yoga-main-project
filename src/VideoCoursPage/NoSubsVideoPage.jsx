@@ -74,7 +74,7 @@ function NoSubsVideoPage(props){
             </div>
             
 
-
+        <Footer/>
 
         </div>
 

@@ -39,7 +39,7 @@ function ProSubsVideoPage() {
 
   return (
     <div>
-      {/* <Header/> */}
+      <Header/>
       <section className="pro-video">
         <div className="pro-container">
           <ReactPlayer
@@ -115,7 +115,7 @@ function ProSubsVideoPage() {
 
                 <h2>plus de cours de tasha</h2>
 
-                {/* <VideosPage />  */}
+                <VideosPage /> 
                 {/* THIS THE VIDEO COMPONENT FOR THE INSCTRUCTOR ( PLUS VIDEO DU (NOM DU INSCTRUCTEUR)) */} 
 
 
@@ -124,7 +124,7 @@ function ProSubsVideoPage() {
             
 
 
-            {/* <Footer/> */}
+            <Footer/>
         </div>
 
   
